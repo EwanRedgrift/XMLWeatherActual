@@ -40,7 +40,7 @@ namespace XMLWeather
             f.Controls.Add(fs);
         }
 
-        private void textBox1_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
+        private void textBox1_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)  
         {
             if (e.KeyCode == Keys.Enter)
             {
